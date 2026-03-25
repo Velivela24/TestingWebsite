@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-23T21:28:09 GMT-05:00" name="Default suite" finished-at="2026-03-23T21:28:16 GMT-05:00" duration-ms="6111">
+  <suite started-at="2026-03-24T20:47:31 GMT-05:00" name="Default suite" finished-at="2026-03-24T20:47:34 GMT-05:00" duration-ms="2961">
     <groups>
     </groups>
-    <test started-at="2026-03-23T21:28:09 GMT-05:00" name="Default test" finished-at="2026-03-23T21:28:16 GMT-05:00" duration-ms="6111">
-      <class name="websitetest.RegisterPageTest">
-        <test-method signature="registerAccTest()[pri:0, instance:websitetest.RegisterPageTest@5223e5ee]" started-at="2026-03-23T21:28:09 GMT-05:00" name="registerAccTest" finished-at="2026-03-23T21:28:16 GMT-05:00" duration-ms="6021" status="PASS">
+    <test started-at="2026-03-24T20:47:31 GMT-05:00" name="Default test" finished-at="2026-03-24T20:47:34 GMT-05:00" duration-ms="2961">
+      <class name="websitetest.HoverPage">
+        <test-method signature="hoverTest()[pri:0, instance:websitetest.HoverPage@5223e5ee]" started-at="2026-03-24T20:47:31 GMT-05:00" name="hoverTest" finished-at="2026-03-24T20:47:34 GMT-05:00" duration-ms="2917" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerAccTest -->
-      </class> <!-- websitetest.RegisterPageTest -->
+        </test-method> <!-- hoverTest -->
+      </class> <!-- websitetest.HoverPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -32,6 +32,7 @@ public class PracticeAutomation {
 	Date dob = data.date().birthday();
 	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 	dateOfBirth.sendKeys(sdf.format(dob));
+	//dateOfBirth.sendKeys(data.date().birthday().toString());
 	
 	WebElement AddressEle = driver.findElement(By.xpath("//input[@id='address']"));
 	AddressEle.sendKeys(data.address().streetAddress());
