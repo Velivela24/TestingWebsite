@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="websitetest.HoverPage">
+      <class name="websitetest.DynamicAssignment">
         <methods>
-          <include name="hoverTest"/>
+          <include name="DynamicTest"/>
         </methods>
-      </class> <!-- websitetest.HoverPage -->
+      </class> <!-- websitetest.DynamicAssignment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
