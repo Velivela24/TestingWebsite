@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="websitetest.DynamicAssignment">
+      <class name="websitetest.DynamicControls">
         <methods>
-          <include name="DynamicTest"/>
+          <include name="dynamicRemoveTest"/>
         </methods>
-      </class> <!-- websitetest.DynamicAssignment -->
+      </class> <!-- websitetest.DynamicControls -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

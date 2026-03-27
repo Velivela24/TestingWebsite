@@ -9,6 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class DynamicControls {
@@ -26,6 +27,13 @@ public class DynamicControls {
 		WebElement removeButton = driver.findElement(By.xpath("//button[text()='Remove']"));
 		wait.until(ExpectedConditions.elementToBeClickable(removeButton));
 		
-
-	}
+		WebElement checkBox = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@label='blah']")));
+		checkBox.click();
+		removeButton.click();
+		
+		WebElement add = driver.findElement(By.xpath("//button[text()='Add']"));
+	//	Assert.assertEquals("//button[text()='Add']",add);
+		wait.until(ExpectedConditions.elementToBeClickable(add));
+		Assert.assertEquals("//p[@id='message']", "It's gone!");
+}
 }
